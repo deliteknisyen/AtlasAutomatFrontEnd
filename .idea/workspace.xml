@@ -4,35 +4,62 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fc3e14a-990d-4c7e-94e5-ba384af932d8" name="Changes" comment="ilk kurulum NextJs">
-      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/AtlasAutomatFrontEnd.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/next.config.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postcss.config.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/fonts/GeistMonoVF.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/fonts/GeistVF.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    <list default="true" id="3fc3e14a-990d-4c7e-94e5-ba384af932d8" name="Changes" comment="shadcn/ui kütüphanesini ekler">
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/machines/columns.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/machines/components/createDialog.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/machines/data-table.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/machines/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/app-sidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/search-form.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/breadcrumb.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/dropdown-menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/label.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/separator.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/sheet.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/sidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/skeleton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/tooltip.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/version-switcher.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/use-mobile.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/typs/company.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/typs/machine.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/typs/product-category.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/typs/product.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/typs/reel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/typs/technician.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+    </list>
+    <list id="93d80ea1-c79e-4b2f-8c6b-d3c69c2bf947" name="GÖNDERİLMEYECEKLER" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develope" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -41,12 +68,63 @@
     &quot;assignee&quot;: &quot;deliteknisyen&quot;
   }
 }</component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="feat-menu" />
+                    <option name="lastUsedInstant" value="1729445818" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="develope" />
+                    <option name="lastUsedInstant" value="1729445781" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1729445780" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/deliteknisyen/AtlasAutomatFrontEnd.git&quot;,
     &quot;accountId&quot;: &quot;4ab76e13-826b-4519-acfc-5b0e84fe969b&quot;
   }
 }</component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/.idea/workspace.xml">
+      <ranges>
+        <range start1="2" end1="2" start2="2" end2="5" changelist="3fc3e14a-990d-4c7e-94e5-ba384af932d8" />
+        <range start1="3" end1="25" start2="6" end2="43" changelist="93d80ea1-c79e-4b2f-8c6b-d3c69c2bf947" />
+        <range start1="30" end1="30" start2="48" end2="55" changelist="93d80ea1-c79e-4b2f-8c6b-d3c69c2bf947" />
+        <range start1="32" end1="32" start2="57" end2="62" changelist="93d80ea1-c79e-4b2f-8c6b-d3c69c2bf947" />
+        <range start1="40" end1="40" start2="70" end2="99" changelist="93d80ea1-c79e-4b2f-8c6b-d3c69c2bf947" />
+        <range start1="46" end1="46" start2="105" end2="127" changelist="93d80ea1-c79e-4b2f-8c6b-d3c69c2bf947" />
+        <range start1="56" end1="56" start2="137" end2="138" changelist="93d80ea1-c79e-4b2f-8c6b-d3c69c2bf947" />
+        <range start1="57" end1="58" start2="139" end2="141" changelist="93d80ea1-c79e-4b2f-8c6b-d3c69c2bf947" />
+        <range start1="59" end1="59" start2="142" end2="146" changelist="93d80ea1-c79e-4b2f-8c6b-d3c69c2bf947" />
+        <range start1="61" end1="61" start2="148" end2="149" changelist="93d80ea1-c79e-4b2f-8c6b-d3c69c2bf947" />
+        <range start1="73" end1="73" start2="161" end2="166" changelist="93d80ea1-c79e-4b2f-8c6b-d3c69c2bf947" />
+        <range start1="84" end1="84" start2="177" end2="178" changelist="93d80ea1-c79e-4b2f-8c6b-d3c69c2bf947" />
+        <range start1="89" end1="90" start2="183" end2="184" changelist="93d80ea1-c79e-4b2f-8c6b-d3c69c2bf947" />
+        <range start1="91" end1="91" start2="185" end2="202" changelist="93d80ea1-c79e-4b2f-8c6b-d3c69c2bf947" />
+        <range start1="101" end1="102" start2="212" end2="225" changelist="93d80ea1-c79e-4b2f-8c6b-d3c69c2bf947" />
+        <range start1="109" end1="110" start2="232" end2="234" changelist="93d80ea1-c79e-4b2f-8c6b-d3c69c2bf947" />
+      </ranges>
+    </file>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -57,11 +135,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "feat-menu",
     "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Users\\Raven\\WebstormProjects\\AtlasAutomatFrontEnd\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -74,6 +159,11 @@
       </map>
     </option>
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Raven\WebstormProjects\AtlasAutomatFrontEnd\src\app\dashboard" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -85,13 +175,31 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="3fc3e14a-990d-4c7e-94e5-ba384af932d8" name="Changes" comment="" />
+      <changelist id="93d80ea1-c79e-4b2f-8c6b-d3c69c2bf947" name="GÖNDERİLMEYECEKLER" comment="" />
       <created>1729445343335</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729445343335</updated>
       <workItem from="1729445344437" duration="294000" />
-      <workItem from="1729445651082" duration="60000" />
+      <workItem from="1729445651082" duration="7785000" />
     </task>
+    <task id="LOCAL-00001" summary="ilk kurulum NextJs">
+      <option name="closed" value="true" />
+      <created>1729445712450</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729445712450</updated>
+    </task>
+    <task id="LOCAL-00002" summary="shadcn/ui kütüphanesini ekler">
+      <option name="closed" value="true" />
+      <created>1729446080871</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729446080871</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,7 +210,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="feat-menu" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -110,6 +230,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ilk kurulum NextJs" />
-    <option name="LAST_COMMIT_MESSAGE" value="ilk kurulum NextJs" />
+    <MESSAGE value="shadcn/ui kütüphanesini ekler" />
+    <option name="LAST_COMMIT_MESSAGE" value="shadcn/ui kütüphanesini ekler" />
   </component>
 </project>
